@@ -4,7 +4,7 @@ playBtn.addEventListener("click", (e) => {
   const videoScreen = document.createElement("video");
   videoScreen.classList.add("video-screen");
   videoScreen.setAttribute("controls", "");
-  videoScreen.src = video.src;
+  videoScreen.src = "/src/assets/video-overlay-1.mp4";
   const overlay = document.createElement("div");
   overlay.classList.add("overlay");
   overlay.append(videoScreen);
